@@ -6,4 +6,5 @@ endpoints:
     responses:
       - statusCode: 200
         body:
-          message: ../list.json
+          list: 
+            - path: https://raw.githubusercontent.com/ploutarchosm/languages/main/list.json
